@@ -1,7 +1,7 @@
 {
-  "name": "corre-corre-menininha",
+  "name": "vite-template",
   "version": "0.0.0-development",
-  "description": "simple kaboom game",
+  "description": "vite starter project",
   "main": "index.js",
   "private": true,
   "type": "module",
@@ -10,14 +10,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "test:ci": "yarn test",
+    "test:ci": "yarn test && yarn lint",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "lint:fix": "yarn lint --fix",
     "lint:staged": "lint-staged",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
-  "repository": "https:git@github.com:vicentelyrio/corre-corre-menininha.git",
+  "repository": "https:git@github.com:vicentelyrio/vite-template.git",
   "author": "vicentelyrio",
   "license": "ISC",
   "devDependencies": {
