@@ -15,10 +15,14 @@
     "lint:fix": "yarn lint --fix",
     "lint:staged": "lint-staged",
     "semantic-release": "semantic-release",
-    "semantic-release:local": "semantic-release --dry-run --no-ci --debug=true",
+    "semantic-release:local": "semantic-release --dry-run --skip-git-push-check --skip-npm-push-check --no-ci --debug=true",
     "prepare": "husky install"
   },
-  "repository": "https:git@github.com:vicentelyrio/vite-template.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentelyrio/vite-template.git"
+  },
+  "homepage": "https://github.com/vicentelyrio/vite-template#readme",
   "author": "vicentelyrio",
   "license": "ISC",
   "devDependencies": {
