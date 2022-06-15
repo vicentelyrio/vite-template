@@ -15,6 +15,7 @@
     "lint:fix": "yarn lint --fix",
     "lint:staged": "lint-staged",
     "semantic-release": "semantic-release",
+    "semantic-release:local": "semantic-release --dry-run --no-ci --debug=true",
     "prepare": "husky install"
   },
   "repository": "https:git@github.com:vicentelyrio/vite-template.git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@semantic-release/changelog": "^6.0.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.17.0",
